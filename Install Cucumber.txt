@@ -1,6 +1,8 @@
 Cucumber
   gem 'cucumber'
   gem 'cucumber-rails'
+
   rails generate cucumber:install pt-BR
+
   cucumber --i18n help
   cucumber --i18n pt
