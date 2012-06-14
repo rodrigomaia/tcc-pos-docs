@@ -3,4 +3,6 @@ Automação de teste é o uso de software para controlar a execução do teste d
 4.2) Describe4.3) Escopo de um Example4.4) Hooks4.5) Testes UnitáriosO que são?Expectativasshould, should_not4.6) Matchersxxxxxxxxxxxxxxxxxxbebe_truebe_falsebe_nilbe_instance_ofbe_achange << ver melhorequal e ==includematch=~ (cobrinha)raise_errorbe_* (empty, odd, procurar outros)have (have_key, have_value, have_exactly, have_at_least, have_at_most, have(:no))xxxxxxxxxxxxxxxx
 5) Mocks e Stubsxxxxxxxxxxxxxxxxmock()mock(‘Blablabla’)stub()stub_chain()any_instance()with()and_return()exceptionobj.stub(:metodo).and_raise("Not implemented")expect { obj.metodo }.to raise_error("Not implemented")Message Expectationsshould_receive() ou should_not_receive()counts()with(any_args, anything)Message Expectations Ordenadasxxxxxxxxxxxxxxxx6) Testando Controllersassignsresponds7) Testando Modelsbe_valid()validates_presence_of()Factory Girl8) Testando Views
 9) Code CoverageDefinição10) TDD11) Testes de IntegraçãoCapybaraCucumber12) Integração Contínua
-Travis-CIJenkins
+Travis-CIJenkins
+
+“Integração Contínua é uma pratica de desenvolvimento de software onde os membros de um time integram seu trabalho frequentemente, geralmente cada pessoa integra pelo menos diariamente – podendo haver multiplas integrações por dia. Cada integração é verificada por um build automatizado (incluindo testes) para .detectar erros de integração o mais rápido possível.” (Martin Fowler)
