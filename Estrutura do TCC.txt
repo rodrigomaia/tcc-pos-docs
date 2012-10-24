@@ -1,7 +1,33 @@
 1) Introdução
-  
+
 2) Visão Geral sobre Testes
+  2.1) Testes de Software "Tradicionais"
+  2.2) Metodologias Ágeis X Testes de Software
+
 3) Testes Automatizados
+  3.1) Introdução
+  3.2) Testes Unitários
+    3.2.1) Mocks e Stubs
+  3.3) Testes de Integração
+  3.4) Testes de Aceitação
+  3.5) Testes de Regressão
+  3.6) Integração Contínua
+
 4) Estudo de Caso
+  4.1) Tecnologias (Ruby on Rails, RSpec, Capybara, Cucumber)
+  4.2) Testes Unitários
+    4.2.1) Testes de Controladores
+      4.2.1.1) Mocks e Stubs
+    4.2.2) Testes de Rotas
+    4.2.3) Testes de Modelos
+      4.2.3.1) Factory
+    4.2.4) Testes de Visões
+  4.2) Testes de Integração
+    4.2.1) Capybara
+  4.3) Testes de Aceitação
+    4.3.1) Cucumber
+  4.4) Testes de Regressão
+  4.5) Integração Contínua (Travis e GitHub)
+
 5) Conclusões
   5.1) Trabalhos Futuros
